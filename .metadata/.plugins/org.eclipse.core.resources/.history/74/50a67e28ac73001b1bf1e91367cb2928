@@ -46,7 +46,7 @@ public class MainViewController implements Initializable {
 	public void initialize(URL uri, ResourceBundle rb) {
 	}
 
-	private synchronized void loadView(String absoluteName) {
+	private void loadView(String absoluteName) {
 
 		try {
 			FXMLLoader loader = new FXMLLoader(getClass().getResource(absoluteName));
