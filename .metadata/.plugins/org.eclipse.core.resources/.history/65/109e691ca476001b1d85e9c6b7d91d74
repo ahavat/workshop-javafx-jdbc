@@ -78,7 +78,7 @@ public class DepartmentFormController implements Initializable {
 	@FXML
 	public void onBtCancelAction(ActionEvent event) {
 		Utils.CurrentStage(event).close();
-	} 
+	}
 
 	@Override
 	public void initialize(URL url, ResourceBundle rb) {
